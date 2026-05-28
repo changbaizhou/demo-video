@@ -1,0 +1,8 @@
+.DS_Store
+
+# Keep the final MP4 only when you are ready to upload it to GitHub.
+# If the video is too large, remove this exception and host the video elsewhere.
+video/*
+!video/.gitkeep
+!video/README.md
+!video/demo.mp4

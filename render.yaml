@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: graduation-demo-video
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit

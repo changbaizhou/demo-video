@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="毕业设计系统演示视频" />
+    <title>毕业设计系统演示视频</title>
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="video-stage" aria-labelledby="page-title">
+        <div class="stage-copy">
+          <p class="kicker">毕业设计</p>
+          <h1 id="page-title">系统演示视频</h1>
+          <p class="summary">低空无人机飞行空域剖分与路径规划演示</p>
+        </div>
+
+        <div class="player-frame">
+          <video
+            id="demo-video"
+            class="demo-video"
+            controls
+            playsinline
+            preload="metadata"
+            poster="assets/poster.svg"
+            data-video-src="video/demo.mp4"
+          >
+            您的浏览器不支持视频播放。
+          </video>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <p class="empty-title">演示视频暂未上传</p>
+            <p class="empty-detail">页面已准备好，上传视频后即可播放。</p>
+          </div>
+        </div>
+
+        <footer class="page-foot">
+          <span>扫码观看</span>
+          <span>MP4 在线播放</span>
+        </footer>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
